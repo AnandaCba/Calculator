@@ -1,12 +1,33 @@
-# Calculator
- Project Calculator - JavaScript, CSS3, HTML5
+#Calculator
 
-Condições e user Stories para serem seguidos ao contruir a calculadora:
+#Sobre o projeto:
+ Construir uma calculadora sem frameworks para fixar o aprendizado base de JS, HTML5 e CSS3.
 
-Constraints
+#O que aprendemos:
+ JAVASCRIPT
+ - Ultilização de condições (IF ELSE)
+ - loop FOR
+ - Array (vetores)
+ - Functions
+
+ HTML5
+ - Estrutura TABLE
+ - Ação "onclcik"
+ - Ultilização Class
+
+ CSS3
+ - Style universal "*"
+ - Ultilização de Class
+ 
+ #Techs:
+ - JavaScript
+ - HTML5
+ - CSS3
+
+#Constraints:
  - You may not use the eval() function to execute calculations
 
-User Stories
+#User Stories:
  - User can see a display showing the current number entered or the result of the last operation.
 
  - User can see an entry pad containing buttons for the digits 0-9, operations - '+', '-', '/', and '=',        'C' button (for clear), and an 'AC' button (for clear all).
@@ -24,7 +45,7 @@ User Stories
 
  - User can see 'ERR' displayed if any operation would exceed the 8 digit maximum.
     
-Bonus features
+#Bonus features:
  - User can click a '+/-' button to change the sign of the number that is currently displayed.
 
  - User can see a decimal point ('.') button on the entry pad to that allows floating point numbers up to 3     places to be entered and operations to be carried out to the maximum number of decimal places entered      for any one number.
