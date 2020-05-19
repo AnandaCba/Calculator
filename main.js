@@ -18,9 +18,7 @@ var callnum = []
     numb(7),
     numb(8),
     numb(9),
-    /* Chama a função limpar 
-    Antes o input aparecia com "undefined"
-    (Por algum motivo sem ela essa função de chamar o botão não funciona) VERIFICAR*/
+    /* Chama a função limpar */
     limpar()
 // Função implementada para chamar o número clicado e inserir na caixa de número 
 function numb(callnum){
