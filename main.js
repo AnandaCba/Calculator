@@ -177,6 +177,7 @@ function divi(){
         }
     }
 }
+//Função armazém operação anterior
 function operacanterior(){
     var armaz = funcanterior[0]
     console.log(`Função armazenada:"${armaz}"`)
