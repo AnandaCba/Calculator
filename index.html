@@ -15,15 +15,17 @@
         </h1>
     </header>
     <div class="conteiner">
+        <input type="text" class="txta" id="previousNumbers" value="">
         <table>
+            
             <tr>
                 <td colspan="4">    
                     <input 
                         type="text" 
                         name="num" 
                         class="txt"
-                        id="num"
-                        value="0">
+                        id="concatenatedNumber"
+                        value="">
                 </td>        
             </tr>
             <tr>
@@ -33,7 +35,7 @@
                         name="7"
                         class="col1"  
                         value="7"
-                        onclick="numb(7)"  
+                        onclick="insertNumber(7)"  
                         id="7">
                 </td>
                 <td>
@@ -42,7 +44,7 @@
                         name="8"
                         class="col1"  
                         value="8"
-                        onclick="numb(8)"  
+                        onclick="insertNumber(8)"  
                         id="8">
                 </td>
                 <td>
@@ -51,7 +53,7 @@
                         name="9"
                         class="col1"  
                         value="9"
-                        onclick="numb(9)"  
+                        onclick="insertNumber(9)"  
                         id="9">
                 </td>
                 <td>
@@ -61,7 +63,7 @@
                         class="col2"    
                         id="divi"
                         value="/"
-                        onclick="divi()">
+                        onclick="calculate('/')">
                 </td>
             </tr>
             <tr>
@@ -71,7 +73,7 @@
                         name="4"
                         class="col1"  
                         value="4"
-                        onclick="numb(4)" 
+                        onclick="insertNumber(4)" 
                         id="4">
                 </td>
                 <td>
@@ -80,7 +82,7 @@
                         name="5"
                         class="col1"  
                         value="5"
-                        onclick="numb(5)"  
+                        onclick="insertNumber(5)"  
                         id="5">
                 </td>
                 <td>
@@ -89,7 +91,7 @@
                         name="6"
                         class="col1"  
                         value="6"
-                        onclick="numb(6)"  
+                        onclick="insertNumber(6)"  
                         id="6">
                 </td>
                 <td>
@@ -99,7 +101,7 @@
                         class="col2"    
                         id="multi"
                         value="*"
-                        onclick="multi()">
+                        onclick="calculate('*')">
                 </td>
             </tr>
             <tr>
@@ -109,7 +111,7 @@
                         name="numbtn"
                         class="col1"  
                         value="1"
-                        onclick="numb(1)"  
+                        onclick="insertNumber(1)"  
                         id="1">
                 </td>
                 <td>
@@ -118,7 +120,7 @@
                         name="numbtn"
                         class="col1"  
                         value="2"
-                        onclick="numb(2)"  
+                        onclick="insertNumber(2)"  
                         id="2">
                 </td>
                 <td>
@@ -127,7 +129,7 @@
                         name="3"
                         class="col1"  
                         value="3"
-                        onclick="numb(3)"
+                        onclick="insertNumber(3)"
                         id="3">
                 </td>
                 <td>
@@ -137,7 +139,7 @@
                         class="col2"    
                         id="minus"
                         value="-"
-                        onclick="minus()">
+                        onclick="calculate('-')">
                 </td>
             </tr>
             <tr>
@@ -148,7 +150,7 @@
                         class="col1"    
                         id="clearall"
                         value="c"
-                        onclick="limpar()">
+                        onclick="cleanValues()">
                 </td>
                 <td>
                     <input 
@@ -156,7 +158,7 @@
                         name="numbtn"
                         class="col1"   
                         value="0"
-                        onclick="numb(0)"  
+                        onclick="insertNumber(0)"  
                         id="0">
 
                 </td>
@@ -176,7 +178,7 @@
                         class="col2"  
                         id="plus"
                         value="+"
-                        onclick="plus()">
+                        onclick="calculate('+')">
 
                 </td>
             </tr>

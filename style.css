@@ -2,9 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    background: rgba(0, 0, 0, 0.969)
+
+label{
+    color: blanchedalmond;
 }
+
+body{
+    background-color:black
+}
+
 h1{
     color: whitesmoke;
     font-style: italic;
@@ -27,6 +33,18 @@ h1{
     height: 80px;
     text-align: right;
 }
+
+.txta{
+    font-size: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    border: 1px;
+    color:darkgrey;
+    background-color: rgba(0, 0, 0, 0.969);
+    width: 325px;
+    height: 40px;
+    margin-top: -20%;
+    text-align: right;}
+
 .col1{
     font-size: 30px;
     font-family: roboto,Arial, Helvetica, sans-serif;
