@@ -1,6 +1,6 @@
 # Calculator
 
-<img src="/img/app-calculator.png" alt="app image">
+<img src="/img/app.png" alt="app image">
 
 ## Sobre o projeto:
  Construir uma calculadora sem frameworks para fixar o aprendizado base de JS, HTML5 e CSS3.
